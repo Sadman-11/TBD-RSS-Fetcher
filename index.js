@@ -18,7 +18,7 @@ const EMAIL_CONFIG = {
     pass: process.env.EMAIL_PASS,
   },
 };
-const RECIPIENT_EMAIL = "sadmananik8986@gmail.com";
+const RECIPIENT_EMAIL = "s@gmail.com";
 const SENT_TITLES_FILE = "sent_titles.json";
 
 /**
