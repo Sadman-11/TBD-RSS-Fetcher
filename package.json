@@ -1,0 +1,25 @@
+{
+  "name": "tbd-rss-email-cron",
+  "version": "1.0.0",
+  "description": "A Node.js application that fetches RSS feeds, filters entries, and sends updates via email on a schedule.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "rss",
+    "email",
+    "cron",
+    "nodejs",
+    "automation"
+  ],
+  "author": "Chatgpt",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.18.2",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.9.4",
+    "rss-parser": "^3.12.0"
+  }
+}
